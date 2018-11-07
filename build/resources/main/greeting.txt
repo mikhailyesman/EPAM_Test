@@ -1,2 +1,0 @@
-hello Gradle 1.0.10
-
