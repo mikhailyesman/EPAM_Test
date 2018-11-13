@@ -1,3 +1,4 @@
 FROM tomcat:alpine
-ARG vers=blabla
-RUN wget -P /usr/local/tomcat/webapps/ http://100.64.0.111:8081/nexus/content/repositories/releases/task7/${vers}/task7.war
+ARG blabla=$vers
+ENV d=http://100.64.0.111:8081/nexus/content/repositories/releases/task7/${blabla}/task7.war
+RUN wget -P /usr/local/tomcat/webapps/ ${d}
