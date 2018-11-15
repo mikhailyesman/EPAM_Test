@@ -5,23 +5,27 @@ node ('master'){
 	stage('build'){
 		sh 'chmod +x gradlew'
 		sh './gradlew build'
-		sh './gradlew task increment'
+		sh './gradlew task incrementVersion'
 	}
 
-	 def v = readFile 'gradle.properties'
-    String version=v.substring(v.lastIndexOf(' ')+1,15)
-    println version
+	def DataGPFile = readFile 'gradle.properties'
+	String v2=DataGPFile.substring(DataGPFile.lastIndexOf('=')+1)
+	String v1=DataGPFile.substring(DataGPFile.lastIndexOf('.')-1,DataGPFile.lastIndexOf('.')+2)
+	String v= v1+'.'+v2.trim()
+	println v1
+	println v2
 	
-	println version
-	stage('upload to nexus'){
-		NameFile = version
+	
+	
+	stage('nexus'){
+		NameFile = v
 		println NameFile
 		dir ('build/libs'){
 			sh 'chmod +x task7.war'
 			withCredentials([usernameColonPassword(credentialsId: '652c7f0f-598d-4673-982f-10fb6b613c1a', variable: 'nexus')]) {
 				sh "curl -XPUT -u $nexus -T task7.war 'http://100.64.0.111:8081/repository/snapshot/task7/${NameFile}/task7.war'"
+			}
 		}
-	  }
 	}
 	stage('docker'){
 	    println NameFile
@@ -36,17 +40,19 @@ node ('master'){
 	}
 	stage('service'){
 		def ver2 = sh returnStatus: true, script: 'curl -X POST http://100.64.0.111:8091/task7/'
-			script {
-				if (ver2) {
-					sh "docker service create --name greeting -p 8091:8080 --replicas=2 100.64.0.111:5000/greeting:${NameFile} "
-				}
-				else {
-					sh "docker service update --force greeting --image 100.64.0.111:5000/greeting:${NameFile} "
-				}
+		script {
+			if (ver2) {
+				sh "docker service create --name greeting -p 8091:8080 --replicas=2 100.64.0.111:5000/greeting:${NameFile} "
 			}
+			else {
+					sh "docker service update --force greeting --image 100.64.0.111:5000/greeting:${NameFile} "
+			}
+		}
 	}	
 	stage('verify'){
+	    
 	    sh "curl -X POST http://100.64.0.111:8091/task7/"
+	    sleep 10
 		def ver1 = sh(returnStdout: true, script: "curl -X POST http://100.64.0.111:8091/task7/").trim()
 		println NameFile
 		println 'ggggggggg'
@@ -54,10 +60,10 @@ node ('master'){
 		
 		script {
 			if (ver1.contains(NameFile)) {
-				echo 'OK'
+				echo '+'
 			}
 			else {
-				error 'not ok'
+				error '-'
 			}
 		}
 	}
