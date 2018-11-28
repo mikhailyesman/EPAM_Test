@@ -1,0 +1,140 @@
+I, [2018-11-28T22:20:31.855678 #22956]  INFO -- default-centos-7: -----> Cleaning up any prior instances of <default-centos-7>
+I, [2018-11-28T22:20:31.855834 #22956]  INFO -- default-centos-7: -----> Destroying <default-centos-7>...
+I, [2018-11-28T22:20:31.857586 #22956]  INFO -- default-centos-7: Finished destroying <default-centos-7> (0m0.00s).
+I, [2018-11-28T22:20:31.857808 #22956]  INFO -- default-centos-7: -----> Testing <default-centos-7>
+I, [2018-11-28T22:20:31.857907 #22956]  INFO -- default-centos-7: -----> Creating <default-centos-7>...
+I, [2018-11-28T22:20:33.758363 #22956]  INFO -- default-centos-7: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2018-11-28T22:20:33.990751 #22956]  INFO -- default-centos-7: ==> default: Box 'bento/centos-7' could not be found. Attempting to find and install...
+I, [2018-11-28T22:20:33.990998 #22956]  INFO -- default-centos-7:     default: Box Provider: virtualbox
+I, [2018-11-28T22:20:33.991179 #22956]  INFO -- default-centos-7:     default: Box Version: >= 0
+I, [2018-11-28T22:20:35.304020 #22956]  INFO -- default-centos-7: ==> default: Loading metadata for box 'bento/centos-7'
+I, [2018-11-28T22:20:35.304271 #22956]  INFO -- default-centos-7:     default: URL: https://vagrantcloud.com/bento/centos-7
+I, [2018-11-28T22:20:36.273182 #22956]  INFO -- default-centos-7: ==> default: Adding box 'bento/centos-7' (v201808.24.0) for provider: virtualbox
+I, [2018-11-28T22:20:36.280180 #22956]  INFO -- default-centos-7:     default: Downloading: https://vagrantcloud.com/bento/boxes/centos-7/versions/201808.24.0/providers/virtualbox.box
+I, [2018-11-28T22:22:02.729070 #22956]  INFO -- default-centos-7: [K    default: Progress: 0% (Rate: 0}/s, Estimated time remaining: --:--:--)[K    default: Progress: 100% (Rate: 397/s, Estimated time remaining: --:--:--)[K    default: Progress: 0% (Rate: 0*/s, Estimated time remaining: --:--:--)[K    default: Progress: 0% (Rate: 82458/s, Estimated time remaining: 4:34:25)[K    default: Progress: 1% (Rate: 3070k/s, Estimated time remaining: 0:05:11)[K    default: Progress: 2% (Rate: 4246k/s, Estimated time remaining: 0:03:11)[K    default: Progress: 3% (Rate: 4976k/s, Estimated time remaining: 0:02:28)[K    default: Progress: 4% (Rate: 5473k/s, Estimated time remaining: 0:02:06)[K    default: Progress: 6% (Rate: 7069k/s, Estimated time remaining: 0:01:52)[K    default: Progress: 7% (Rate: 7342k/s, Estimated time remaining: 0:01:42)[K    default: Progress: 8% (Rate: 7593k/s, Estimated time remaining: 0:01:35)[K    default: Progress: 10% (Rate: 7727k/s, Estimated time remaining: 0:01:30)[K    default: Progress: 11% (Rate: 7795k/s, Estimated time remaining: 0:01:26)[K    default: Progress: 13% (Rate: 7836k/s, Estimated time remaining: 0:01:22)[K    default: Progress: 14% (Rate: 7860k/s, Estimated time remaining: 0:01:19)[K    default: Progress: 15% (Rate: 7900k/s, Estimated time remaining: 0:01:16)[K    default: Progress: 17% (Rate: 8003k/s, Estimated time remaining: 0:01:13)[K    default: Progress: 18% (Rate: 8166k/s, Estimated time remaining: 0:01:10)[K    default: Progress: 20% (Rate: 8403k/s, Estimated time remaining: 0:01:07)[K    default: Progress: 22% (Rate: 8771k/s, Estimated time remaining: 0:01:04)[K    default: Progress: 24% (Rate: 9291k/s, Estimated time remaining: 0:01:01)[K    default: Progress: 25% (Rate: 9606k/s, Estimated time remaining: 0:00:58)[K    default: Progress: 27% (Rate: 9683k/s, Estimated time remaining: 0:00:56)[K    default: Progress: 29% (Rate: 9836k/s, Estimated time remaining: 0:00:54)[K    default: Progress: 31% (Rate: 9969k/s, Estimated time remaining: 0:00:52)[K    default: Progress: 33% (Rate: 9.7M/s, Estimated time remaining: 0:00:49)[K    default: Progress: 34% (Rate: 9.7M/s, Estimated time remaining: 0:00:47)[K    default: Progress: 36% (Rate: 9887k/s, Estimated time remaining: 0:00:46)[K    default: Progress: 37% (Rate: 9705k/s, Estimated time remaining: 0:00:45)[K    default: Progress: 39% (Rate: 9478k/s, Estimated time remaining: 0:00:43)[K    default: Progress: 41% (Rate: 9177k/s, Estimated time remaining: 0:00:42)[K    default: Progress: 42% (Rate: 9126k/s, Estimated time remaining: 0:00:40)[K    default: Progress: 44% (Rate: 9366k/s, Estimated time remaining: 0:00:39)[K    default: Progress: 46% (Rate: 9491k/s, Estimated time remaining: 0:00:37)[K    default: Progress: 48% (Rate: 9557k/s, Estimated time remaining: 0:00:36)[K    default: Progress: 49% (Rate: 9606k/s, Estimated time remaining: 0:00:35)[K    default: Progress: 51% (Rate: 9625k/s, Estimated time remaining: 0:00:33)[K    default: Progress: 53% (Rate: 9664k/s, Estimated time remaining: 0:00:32)[K    default: Progress: 54% (Rate: 9763k/s, Estimated time remaining: 0:00:31)[K    default: Progress: 56% (Rate: 9908k/s, Estimated time remaining: 0:00:29)[K    default: Progress: 58% (Rate: 9862k/s, Estimated time remaining: 0:00:28)[K    default: Progress: 60% (Rate: 9846k/s, Estimated time remaining: 0:00:27)[K    default: Progress: 61% (Rate: 9705k/s, Estimated time remaining: 0:00:26)[K    default: Progress: 63% (Rate: 9647k/s, Estimated time remaining: 0:00:24)[K    default: Progress: 65% (Rate: 9627k/s, Estimated time remaining: 0:00:23)[K    default: Progress: 67% (Rate: 9820k/s, Estimated time remaining: 0:00:22)[K    default: Progress: 68% (Rate: 9468k/s, Estimated time remaining: 0:00:21)[K    default: Progress: 69% (Rate: 8960k/s, Estimated time remaining: 0:00:20)[K    default: Progress: 70% (Rate: 8262k/s, Estimated time remaining: 0:00:19)[K    default: Progress: 72% (Rate: 7529k/s, Estimated time remaining: 0:00:19)[K    default: Progress: 72% (Rate: 6531k/s, Estimated time remaining: 0:00:18)[K    default: Progress: 73% (Rate: 5564k/s, Estimated time remaining: 0:00:18)[K    default: Progress: 73% (Rate: 4789k/s, Estimated time remaining: 0:00:18)[K    default: Progress: 74% (Rate: 4086k/s, Estimated time remaining: 0:00:18)[K    default: Progress: 74% (Rate: 3350k/s, Estimated time remaining: 0:00:18)[K    default: Progress: 75% (Rate: 2844k/s, Estimated time remaining: 0:00:18)[K    default: Progress: 75% (Rate: 2803k/s, Estimated time remaining: 0:00:17)[K    default: Progress: 76% (Rate: 2844k/s, Estimated time remaining: 0:00:17)[K    default: Progress: 77% (Rate: 2876k/s, Estimated time remaining: 0:00:17)[K    default: Progress: 77% (Rate: 2897k/s, Estimated time remaining: 0:00:17)[K    default: Progress: 78% (Rate: 2969k/s, Estimated time remaining: 0:00:17)[K    default: Progress: 78% (Rate: 3110k/s, Estimated time remaining: 0:00:16)[K    default: Progress: 79% (Rate: 3338k/s, Estimated time remaining: 0:00:16)[K    default: Progress: 80% (Rate: 3667k/s, Estimated time remaining: 0:00:15)[K    default: Progress: 81% (Rate: 4156k/s, Estimated time remaining: 0:00:15)[K    default: Progress: 82% (Rate: 4800k/s, Estimated time remaining: 0:00:14)[K    default: Progress: 83% (Rate: 5635k/s, Estimated time remaining: 0:00:13)[K    default: Progress: 85% (Rate: 6662k/s, Estimated time remaining: 0:00:11)[K    default: Progress: 86% (Rate: 7558k/s, Estimated time remaining: 0:00:10)[K    default: Progress: 88% (Rate: 8197k/s, Estimated time remaining: 0:00:09)[K    default: Progress: 90% (Rate: 8758k/s, Estimated time remaining: 0:00:08)[K    default: Progress: 91% (Rate: 9190k/s, Estimated time remaining: 0:00:06)[K    default: Progress: 93% (Rate: 9427k/s, Estimated time remaining: 0:00:05)[K    default: Progress: 95% (Rate: 9728k/s, Estimated time remaining: 0:00:03)[K    default: Progress: 97% (Rate: 9.9M/s, Estimated time remaining: 0:00:02)[K    default: Progress: 99% (Rate: 9.8M/s, Estimated time remaining: 0:00:01)[K==> default: Successfully added box 'bento/centos-7' (v201808.24.0) for 'virtualbox'!
+I, [2018-11-28T22:22:02.961145 #22956]  INFO -- default-centos-7: ==> default: Importing base box 'bento/centos-7'...
+I, [2018-11-28T22:22:22.946527 #22956]  INFO -- default-centos-7: [KProgress: 30%[KProgress: 50%[KProgress: 60%[KProgress: 80%[KProgress: 90%[K==> default: Matching MAC address for NAT networking...
+I, [2018-11-28T22:22:23.163614 #22956]  INFO -- default-centos-7: ==> default: Checking if box 'bento/centos-7' is up to date...
+I, [2018-11-28T22:22:24.947575 #22956]  INFO -- default-centos-7: ==> default: Setting the name of the VM: kitchen-task9-default-centos-7
+I, [2018-11-28T22:22:25.553044 #22956]  INFO -- default-centos-7: ==> default: Fixed port collision for 22 => 2222. Now on port 2202.
+I, [2018-11-28T22:22:26.107488 #22956]  INFO -- default-centos-7: ==> default: Clearing any previously set network interfaces...
+I, [2018-11-28T22:22:26.227722 #22956]  INFO -- default-centos-7: ==> default: Preparing network interfaces based on configuration...
+I, [2018-11-28T22:22:26.228382 #22956]  INFO -- default-centos-7:     default: Adapter 1: nat
+I, [2018-11-28T22:22:26.356792 #22956]  INFO -- default-centos-7: ==> default: Forwarding ports...
+I, [2018-11-28T22:22:26.457542 #22956]  INFO -- default-centos-7:     default: 22 (guest) => 2202 (host) (adapter 1)
+I, [2018-11-28T22:22:26.902656 #22956]  INFO -- default-centos-7: ==> default: Booting VM...
+I, [2018-11-28T22:22:27.543435 #22956]  INFO -- default-centos-7: ==> default: Waiting for machine to boot. This may take a few minutes...
+I, [2018-11-28T22:22:28.010742 #22956]  INFO -- default-centos-7:     default: SSH address: 127.0.0.1:2202
+I, [2018-11-28T22:22:28.011058 #22956]  INFO -- default-centos-7:     default: SSH username: vagrant
+I, [2018-11-28T22:22:28.011427 #22956]  INFO -- default-centos-7:     default: SSH auth method: private key
+I, [2018-11-28T22:22:43.455747 #22956]  INFO -- default-centos-7:     default: Warning: Connection reset. Retrying...
+I, [2018-11-28T22:22:44.130935 #22956]  INFO -- default-centos-7:     default: Warning: Remote connection disconnect. Retrying...
+I, [2018-11-28T22:22:44.708057 #22956]  INFO -- default-centos-7:     default: Warning: Connection reset. Retrying...
+I, [2018-11-28T22:22:45.349860 #22956]  INFO -- default-centos-7:     default: Warning: Remote connection disconnect. Retrying...
+I, [2018-11-28T22:22:47.885843 #22956]  INFO -- default-centos-7:     default: 
+I, [2018-11-28T22:22:47.886013 #22956]  INFO -- default-centos-7:     default: Vagrant insecure key detected. Vagrant will automatically replace
+I, [2018-11-28T22:22:47.886101 #22956]  INFO -- default-centos-7:     default: this with a newly generated keypair for better security.
+I, [2018-11-28T22:22:53.952640 #22956]  INFO -- default-centos-7:     default: 
+I, [2018-11-28T22:22:53.952756 #22956]  INFO -- default-centos-7:     default: Inserting generated public key within guest...
+I, [2018-11-28T22:22:54.809319 #22956]  INFO -- default-centos-7:     default: Removing insecure key from the guest if it's present...
+I, [2018-11-28T22:22:55.595816 #22956]  INFO -- default-centos-7:     default: Key inserted! Disconnecting and reconnecting using new SSH key...
+I, [2018-11-28T22:22:57.554058 #22956]  INFO -- default-centos-7: ==> default: Machine booted and ready!
+I, [2018-11-28T22:22:57.554720 #22956]  INFO -- default-centos-7: ==> default: Checking for guest additions in VM...
+I, [2018-11-28T22:22:57.617148 #22956]  INFO -- default-centos-7:     default: The guest additions on this VM do not match the installed version of
+I, [2018-11-28T22:22:57.617292 #22956]  INFO -- default-centos-7:     default: VirtualBox! In most cases this is fine, but in rare cases it can
+I, [2018-11-28T22:22:57.617370 #22956]  INFO -- default-centos-7:     default: prevent things such as shared folders from working properly. If you see
+I, [2018-11-28T22:22:57.617449 #22956]  INFO -- default-centos-7:     default: shared folder errors, please make sure the guest additions within the
+I, [2018-11-28T22:22:57.617531 #22956]  INFO -- default-centos-7:     default: virtual machine match the version of VirtualBox you have installed on
+I, [2018-11-28T22:22:57.617600 #22956]  INFO -- default-centos-7:     default: your host and reload your VM.
+I, [2018-11-28T22:22:57.617675 #22956]  INFO -- default-centos-7:     default: 
+I, [2018-11-28T22:22:57.617747 #22956]  INFO -- default-centos-7:     default: Guest Additions Version: 5.2.18
+I, [2018-11-28T22:22:57.617834 #22956]  INFO -- default-centos-7:     default: VirtualBox Version: 5.1
+I, [2018-11-28T22:22:57.619067 #22956]  INFO -- default-centos-7: ==> default: Setting hostname...
+I, [2018-11-28T22:22:59.810906 #22956]  INFO -- default-centos-7: ==> default: Mounting shared folders...
+I, [2018-11-28T22:22:59.811565 #22956]  INFO -- default-centos-7:     default: /tmp/omnibus/cache => /root/.kitchen/cache
+I, [2018-11-28T22:23:01.664807 #22956]  INFO -- default-centos-7: ==> default: Machine not provisioned because `--no-provision` is specified.
+I, [2018-11-28T22:23:04.733102 #22956]  INFO -- default-centos-7: [SSH] Established
+I, [2018-11-28T22:23:04.733729 #22956]  INFO -- default-centos-7: Vagrant instance <default-centos-7> created.
+I, [2018-11-28T22:23:04.735019 #22956]  INFO -- default-centos-7: Finished creating <default-centos-7> (2m32.88s).
+I, [2018-11-28T22:23:04.735420 #22956]  INFO -- default-centos-7: -----> Converging <default-centos-7>...
+I, [2018-11-28T22:23:04.736164 #22956]  INFO -- default-centos-7: Preparing files for transfer
+I, [2018-11-28T22:23:04.736593 #22956]  INFO -- default-centos-7: Preparing dna.json
+I, [2018-11-28T22:23:04.737916 #22956]  INFO -- default-centos-7: Resolving cookbook dependencies with Berkshelf 7.0.6...
+I, [2018-11-28T22:23:08.727852 #22956]  INFO -- default-centos-7: Removing non-cookbook files before transfer
+I, [2018-11-28T22:23:08.733619 #22956]  INFO -- default-centos-7: Preparing validation.pem
+I, [2018-11-28T22:23:08.736247 #22956]  INFO -- default-centos-7: Preparing client.rb
+I, [2018-11-28T22:23:08.812654 #22956]  INFO -- default-centos-7: -----> Installing Chef Omnibus (install only if missing)
+I, [2018-11-28T22:23:08.820034 #22956]  INFO -- default-centos-7: Downloading https://omnitruck.chef.io/install.sh to file /tmp/install.sh
+I, [2018-11-28T22:23:08.823042 #22956]  INFO -- default-centos-7: Trying wget...
+I, [2018-11-28T22:23:09.204697 #22956]  INFO -- default-centos-7: Download complete.
+I, [2018-11-28T22:23:09.249975 #22956]  INFO -- default-centos-7: el 7 x86_64
+I, [2018-11-28T22:23:09.250069 #22956]  INFO -- default-centos-7: Getting information for chef stable  for el...
+I, [2018-11-28T22:23:09.250108 #22956]  INFO -- default-centos-7: downloading https://omnitruck.chef.io/stable/chef/metadata?v=&p=el&pv=7&m=x86_64
+I, [2018-11-28T22:23:09.250151 #22956]  INFO -- default-centos-7:   to file /tmp/install.sh.3113/metadata.txt
+I, [2018-11-28T22:23:09.251719 #22956]  INFO -- default-centos-7: trying wget...
+I, [2018-11-28T22:23:09.571520 #22956]  INFO -- default-centos-7: sha1	e20291073da5a234291fb495d6d961e72d343927
+I, [2018-11-28T22:23:09.571659 #22956]  INFO -- default-centos-7: sha256	4f8941bfcdfeca0565f883ad49260ba6353db38435f19fd5d3be17bedebe9bcd
+I, [2018-11-28T22:23:09.571733 #22956]  INFO -- default-centos-7: url	https://packages.chef.io/files/stable/chef/14.7.17/el/7/chef-14.7.17-1.el7.x86_64.rpm
+I, [2018-11-28T22:23:09.571802 #22956]  INFO -- default-centos-7: version	14.7.17
+I, [2018-11-28T22:23:09.577853 #22956]  INFO -- default-centos-7: downloaded metadata file looks valid...
+I, [2018-11-28T22:23:09.597424 #22956]  INFO -- default-centos-7: downloading https://packages.chef.io/files/stable/chef/14.7.17/el/7/chef-14.7.17-1.el7.x86_64.rpm
+I, [2018-11-28T22:23:09.597512 #22956]  INFO -- default-centos-7:   to file /tmp/omnibus/cache/chef-14.7.17-1.el7.x86_64.rpm
+I, [2018-11-28T22:23:09.599018 #22956]  INFO -- default-centos-7: trying wget...
+I, [2018-11-28T22:23:12.939270 #22956]  INFO -- default-centos-7: Comparing checksum with sha256sum...
+I, [2018-11-28T22:23:13.141402 #22956]  INFO -- default-centos-7: 
+I, [2018-11-28T22:23:13.141507 #22956]  INFO -- default-centos-7: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+I, [2018-11-28T22:23:13.141549 #22956]  INFO -- default-centos-7: 
+I, [2018-11-28T22:23:13.141587 #22956]  INFO -- default-centos-7: You are installing an omnibus package without a version pin.  If you are installing
+I, [2018-11-28T22:23:13.141627 #22956]  INFO -- default-centos-7: on production servers via an automated process this is DANGEROUS and you will
+I, [2018-11-28T22:23:13.141681 #22956]  INFO -- default-centos-7: be upgraded without warning on new releases, even to new major releases.
+I, [2018-11-28T22:23:13.141727 #22956]  INFO -- default-centos-7: Letting the version float is only appropriate in desktop, test, development or
+I, [2018-11-28T22:23:13.141765 #22956]  INFO -- default-centos-7: CI/CD environments.
+I, [2018-11-28T22:23:13.141803 #22956]  INFO -- default-centos-7: 
+I, [2018-11-28T22:23:13.141840 #22956]  INFO -- default-centos-7: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+I, [2018-11-28T22:23:13.141882 #22956]  INFO -- default-centos-7: 
+I, [2018-11-28T22:23:13.141918 #22956]  INFO -- default-centos-7: Installing chef 
+I, [2018-11-28T22:23:13.141943 #22956]  INFO -- default-centos-7: installing with rpm...
+I, [2018-11-28T22:23:13.258187 #22956]  INFO -- default-centos-7: предупреждение: /tmp/omnibus/cache/chef-14.7.17-1.el7.x86_64.rpm: Заголовок V4 DSA/SHA1 Signature, key ID 83ef826a: NOKEY
+I, [2018-11-28T22:23:14.988141 #22956]  INFO -- default-centos-7: Подготовка...                                                 (100%)#                                 (100%)##                                (100%)###                               (100%)####                              (100%)#####                             (100%)######                            (100%)#######                           (100%)########                          (100%)#########                         (100%)##########                        (100%)###########                       (100%)############                      (100%)#############                     (100%)##############                    (100%)###############                   (100%)################                  (100%)#################                 (100%)##################                (100%)###################               (100%)####################              (100%)#####################             (100%)######################            (100%)#######################           (100%)########################          (100%)#########################         (100%)##########################        (100%)###########################       (100%)############################      (100%)#############################     (100%)##############################    (100%)###############################   (100%)################################  (100%)################################# (100%)################################# [100%]
+I, [2018-11-28T22:23:15.006236 #22956]  INFO -- default-centos-7: Обновление / установка...
+I, [2018-11-28T22:23:26.385121 #22956]  INFO -- default-centos-7:    1:chef-14.7.17-1.el7                                                 (  2%)#                                 (  4%)##                                (  7%)###                               ( 10%)####                              ( 13%)#####                             ( 16%)######                            ( 19%)#######                           ( 22%)########                          ( 25%)#########                         ( 28%)##########                        ( 31%)###########                       ( 34%)############                      ( 37%)#############                     ( 40%)##############                    ( 43%)###############                   ( 46%)################                  ( 49%)#################                 ( 51%)##################                ( 54%)###################               ( 57%)####################              ( 60%)#####################             ( 63%)######################            ( 66%)#######################           ( 69%)########################          ( 72%)#########################         ( 75%)##########################        ( 78%)###########################       ( 81%)############################      ( 84%)#############################     ( 87%)##############################    ( 90%)###############################   ( 93%)################################  ( 96%)################################# ( 99%)################################# [100%]
+I, [2018-11-28T22:23:27.033703 #22956]  INFO -- default-centos-7: Thank you for installing Chef!
+I, [2018-11-28T22:23:27.173416 #22956]  INFO -- default-centos-7: Transferring files to <default-centos-7>
+I, [2018-11-28T22:23:36.430627 #22956]  INFO -- default-centos-7: Starting Chef Client, version 14.7.17
+I, [2018-11-28T22:23:38.382695 #22956]  INFO -- default-centos-7: Creating a new client identity for default-centos-7 using the validator key.
+I, [2018-11-28T22:23:38.455412 #22956]  INFO -- default-centos-7: resolving cookbooks for run list: ["task9::default"]
+I, [2018-11-28T22:23:38.529390 #22956]  INFO -- default-centos-7: Synchronizing Cookbooks:
+I, [2018-11-28T22:23:38.542609 #22956]  INFO -- default-centos-7:   - task9 (0.1.0)
+I, [2018-11-28T22:23:38.556772 #22956]  INFO -- default-centos-7: Installing Cookbook Gems:
+I, [2018-11-28T22:23:38.557019 #22956]  INFO -- default-centos-7: Compiling Cookbooks...
+I, [2018-11-28T22:23:38.557048 #22956]  INFO -- default-centos-7: Converging 4 resources
+I, [2018-11-28T22:23:38.557070 #22956]  INFO -- default-centos-7: Recipe: task9::default
+I, [2018-11-28T22:23:38.573251 #22956]  INFO -- default-centos-7:   * yum_repository[docker-ce-stable] action create
+I, [2018-11-28T22:23:38.575874 #22956]  INFO -- default-centos-7:     * template[/etc/yum.repos.d/docker-ce.repo] action create
+I, [2018-11-28T22:23:38.575963 #22956]  INFO -- default-centos-7:       - create new file /etc/yum.repos.d/docker-ce.repo
+I, [2018-11-28T22:23:38.576001 #22956]  INFO -- default-centos-7:       - update content in file /etc/yum.repos.d/docker-ce.repo from none to c8a362
+I, [2018-11-28T22:23:38.576043 #22956]  INFO -- default-centos-7:       --- /etc/yum.repos.d/docker-ce.repo	2018-11-28 19:23:38.555473851 +0000
+I, [2018-11-28T22:23:38.576086 #22956]  INFO -- default-centos-7:       +++ /etc/yum.repos.d/.chef-docker-ce20181128-3238-1aw0cxi.repo	2018-11-28 19:23:38.555473851 +0000
+I, [2018-11-28T22:23:38.576119 #22956]  INFO -- default-centos-7:       @@ -1 +1,11 @@
+I, [2018-11-28T22:23:38.576150 #22956]  INFO -- default-centos-7:       +# This file was generated by Chef
+I, [2018-11-28T22:23:38.576180 #22956]  INFO -- default-centos-7:       +# Do NOT modify this file by hand.
+I, [2018-11-28T22:23:38.576210 #22956]  INFO -- default-centos-7:       +
+I, [2018-11-28T22:23:38.576240 #22956]  INFO -- default-centos-7:       +[docker-ce]
+I, [2018-11-28T22:23:38.576270 #22956]  INFO -- default-centos-7:       +name=Docker CE Stable
+I, [2018-11-28T22:23:38.576299 #22956]  INFO -- default-centos-7:       +baseurl=https://download-stage.docker.com/linux/centos/7/x86_64/stable
+I, [2018-11-28T22:23:38.576330 #22956]  INFO -- default-centos-7:       +enabled=1
+I, [2018-11-28T22:23:38.576360 #22956]  INFO -- default-centos-7:       +fastestmirror_enabled=0
+I, [2018-11-28T22:23:38.576390 #22956]  INFO -- default-centos-7:       +gpgcheck=1
+I, [2018-11-28T22:23:38.576420 #22956]  INFO -- default-centos-7:       +gpgkey=https://download-stage.docker.com/linux/centos/gpg
+I, [2018-11-28T22:23:38.621474 #22956]  INFO -- default-centos-7:       - change mode from '' to '0644'
+I, [2018-11-28T22:23:38.621600 #22956]  INFO -- default-centos-7:       - restore selinux security context
+I, [2018-11-28T22:23:39.083232 #22956]  INFO -- default-centos-7:     * execute[yum clean metadata docker-ce] action run
+I, [2018-11-28T22:23:39.083338 #22956]  INFO -- default-centos-7:       - execute yum clean metadata --disablerepo=* --enablerepo=docker-ce
+I, [2018-11-28T22:23:40.928248 #22956]  INFO -- default-centos-7:     * execute[yum-makecache-docker-ce] action run
+I, [2018-11-28T22:23:40.935542 #22956]  INFO -- default-centos-7:       - execute yum -q -y makecache --disablerepo=* --enablerepo=docker-ce
+I, [2018-11-28T22:23:43.402926 #22956]  INFO -- default-centos-7:     * ruby_block[package-cache-reload-docker-ce] action create
+I, [2018-11-28T22:23:43.431980 #22956]  INFO -- default-centos-7:       - execute the ruby block package-cache-reload-docker-ce
+I, [2018-11-28T22:23:43.432055 #22956]  INFO -- default-centos-7:     * execute[yum clean metadata docker-ce] action nothing (skipped due to action :nothing)
+I, [2018-11-28T22:23:43.432095 #22956]  INFO -- default-centos-7:     * execute[yum-makecache-docker-ce] action nothing (skipped due to action :nothing)
+I, [2018-11-28T22:23:43.432129 #22956]  INFO -- default-centos-7:     * ruby_block[package-cache-reload-docker-ce] action nothing (skipped due to action :nothing)
+I, [2018-11-28T22:23:43.432165 #22956]  INFO -- default-centos-7:   

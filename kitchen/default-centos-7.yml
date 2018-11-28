@@ -1,0 +1,7 @@
+---
+hostname: 127.0.0.1
+port: '2202'
+username: vagrant
+ssh_key: "/home/smes/chef-repo/cookbooks/task9/.kitchen/kitchen-vagrant/default-centos-7/.vagrant/machines/default/virtualbox/private_key"
+last_action: create
+last_error: 

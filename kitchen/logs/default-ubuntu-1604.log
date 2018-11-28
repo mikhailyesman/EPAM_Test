@@ -1,0 +1,235 @@
+I, [2018-11-28T22:17:20.266856 #22956]  INFO -- default-ubuntu-1604: -----> Cleaning up any prior instances of <default-ubuntu-1604>
+I, [2018-11-28T22:17:20.267101 #22956]  INFO -- default-ubuntu-1604: -----> Destroying <default-ubuntu-1604>...
+I, [2018-11-28T22:17:20.267658 #22956]  INFO -- default-ubuntu-1604: Finished destroying <default-ubuntu-1604> (0m0.00s).
+I, [2018-11-28T22:17:20.267857 #22956]  INFO -- default-ubuntu-1604: -----> Testing <default-ubuntu-1604>
+I, [2018-11-28T22:17:20.267981 #22956]  INFO -- default-ubuntu-1604: -----> Creating <default-ubuntu-1604>...
+I, [2018-11-28T22:17:22.350124 #22956]  INFO -- default-ubuntu-1604: ==> vagrant: A new version of Vagrant is available: 2.2.2 (installed version: 2.1.5)!
+I, [2018-11-28T22:17:22.350251 #22956]  INFO -- default-ubuntu-1604: ==> vagrant: To upgrade visit: https://www.vagrantup.com/downloads.html
+I, [2018-11-28T22:17:22.350435 #22956]  INFO -- default-ubuntu-1604: 
+I, [2018-11-28T22:17:22.686632 #22956]  INFO -- default-ubuntu-1604: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2018-11-28T22:17:23.198295 #22956]  INFO -- default-ubuntu-1604: ==> default: Box 'bento/ubuntu-16.04' could not be found. Attempting to find and install...
+I, [2018-11-28T22:17:23.198506 #22956]  INFO -- default-ubuntu-1604:     default: Box Provider: virtualbox
+I, [2018-11-28T22:17:23.198843 #22956]  INFO -- default-ubuntu-1604:     default: Box Version: >= 0
+I, [2018-11-28T22:17:24.557244 #22956]  INFO -- default-ubuntu-1604: ==> default: Loading metadata for box 'bento/ubuntu-16.04'
+I, [2018-11-28T22:17:24.557458 #22956]  INFO -- default-ubuntu-1604:     default: URL: https://vagrantcloud.com/bento/ubuntu-16.04
+I, [2018-11-28T22:17:25.519229 #22956]  INFO -- default-ubuntu-1604: ==> default: Adding box 'bento/ubuntu-16.04' (v201808.24.0) for provider: virtualbox
+I, [2018-11-28T22:17:25.523432 #22956]  INFO -- default-ubuntu-1604:     default: Downloading: https://vagrantcloud.com/bento/boxes/ubuntu-16.04/versions/201808.24.0/providers/virtualbox.box
+I, [2018-11-28T22:18:34.736305 #22956]  INFO -- default-ubuntu-1604: [K    default: Progress: 0% (Rate: 0*/s, Estimated time remaining: --:--:--)[K    default: Progress: 0% (Rate: 0*/s, Estimated time remaining: --:--:--)[K    default: Progress: 100% (Rate: 385/s, Estimated time remaining: --:--:--)[K    default: Progress: 0% (Rate: 0*/s, Estimated time remaining: --:--:--)[K    default: Progress: 0% (Rate: 0{/s, Estimated time remaining: --:--:--)[K    default: Progress: 0% (Rate: 956k/s, Estimated time remaining: 0:25:23)[K    default: Progress: 2% (Rate: 4449k/s, Estimated time remaining: 0:03:20)[K    default: Progress: 4% (Rate: 5823k/s, Estimated time remaining: 0:02:02)[K    default: Progress: 6% (Rate: 6703k/s, Estimated time remaining: 0:01:32)[K    default: Progress: 8% (Rate: 7352k/s, Estimated time remaining: 0:01:15)[K    default: Progress: 11% (Rate: 9081k/s, Estimated time remaining: 0:01:05)[K    default: Progress: 13% (Rate: 9214k/s, Estimated time remaining: 0:01:00)[K    default: Progress: 14% (Rate: 8790k/s, Estimated time remaining: 0:00:59)[K    default: Progress: 15% (Rate: 7887k/s, Estimated time remaining: 0:00:59)[K    default: Progress: 17% (Rate: 6908k/s, Estimated time remaining: 0:00:59)[K    default: Progress: 18% (Rate: 5894k/s, Estimated time remaining: 0:00:59)[K    default: Progress: 19% (Rate: 5249k/s, Estimated time remaining: 0:00:58)[K    default: Progress: 20% (Rate: 5071k/s, Estimated time remaining: 0:00:58)[K    default: Progress: 22% (Rate: 5190k/s, Estimated time remaining: 0:00:57)[K    default: Progress: 23% (Rate: 5212k/s, Estimated time remaining: 0:00:56)[K    default: Progress: 24% (Rate: 5238k/s, Estimated time remaining: 0:00:56)[K    default: Progress: 25% (Rate: 5258k/s, Estimated time remaining: 0:00:55)[K    default: Progress: 27% (Rate: 5342k/s, Estimated time remaining: 0:00:54)[K    default: Progress: 28% (Rate: 5462k/s, Estimated time remaining: 0:00:52)[K    default: Progress: 30% (Rate: 5686k/s, Estimated time remaining: 0:00:51)[K    default: Progress: 31% (Rate: 5814k/s, Estimated time remaining: 0:00:50)[K    default: Progress: 32% (Rate: 5891k/s, Estimated time remaining: 0:00:49)[K    default: Progress: 34% (Rate: 6014k/s, Estimated time remaining: 0:00:48)[K    default: Progress: 35% (Rate: 5934k/s, Estimated time remaining: 0:00:47)[K    default: Progress: 37% (Rate: 5769k/s, Estimated time remaining: 0:00:46)[K    default: Progress: 38% (Rate: 5686k/s, Estimated time remaining: 0:00:45)[K    default: Progress: 39% (Rate: 5645k/s, Estimated time remaining: 0:00:44)[K    default: Progress: 41% (Rate: 5502k/s, Estimated time remaining: 0:00:43)[K    default: Progress: 42% (Rate: 5487k/s, Estimated time remaining: 0:00:42)[K    default: Progress: 43% (Rate: 5507k/s, Estimated time remaining: 0:00:41)[K    default: Progress: 45% (Rate: 5547k/s, Estimated time remaining: 0:00:40)[K    default: Progress: 46% (Rate: 5593k/s, Estimated time remaining: 0:00:39)[K    default: Progress: 47% (Rate: 5567k/s, Estimated time remaining: 0:00:38)[K    default: Progress: 49% (Rate: 5836k/s, Estimated time remaining: 0:00:37)[K    default: Progress: 51% (Rate: 6163k/s, Estimated time remaining: 0:00:35)[K    default: Progress: 53% (Rate: 6658k/s, Estimated time remaining: 0:00:33)[K    default: Progress: 55% (Rate: 7344k/s, Estimated time remaining: 0:00:31)[K    default: Progress: 57% (Rate: 8022k/s, Estimated time remaining: 0:00:29)[K    default: Progress: 59% (Rate: 8203k/s, Estimated time remaining: 0:00:28)[K    default: Progress: 60% (Rate: 8006k/s, Estimated time remaining: 0:00:27)[K    default: Progress: 62% (Rate: 7718k/s, Estimated time remaining: 0:00:26)[K    default: Progress: 64% (Rate: 7177k/s, Estimated time remaining: 0:00:25)[K    default: Progress: 65% (Rate: 6739k/s, Estimated time remaining: 0:00:23)[K    default: Progress: 67% (Rate: 6644k/s, Estimated time remaining: 0:00:22)[K    default: Progress: 69% (Rate: 6860k/s, Estimated time remaining: 0:00:21)[K    default: Progress: 70% (Rate: 6958k/s, Estimated time remaining: 0:00:20)[K    default: Progress: 72% (Rate: 7126k/s, Estimated time remaining: 0:00:18)[K    default: Progress: 74% (Rate: 7262k/s, Estimated time remaining: 0:00:17)[K    default: Progress: 76% (Rate: 7283k/s, Estimated time remaining: 0:00:16)[K    default: Progress: 77% (Rate: 7324k/s, Estimated time remaining: 0:00:14)[K    default: Progress: 79% (Rate: 7441k/s, Estimated time remaining: 0:00:13)[K    default: Progress: 81% (Rate: 7603k/s, Estimated time remaining: 0:00:12)[K    default: Progress: 83% (Rate: 7876k/s, Estimated time remaining: 0:00:10)[K    default: Progress: 86% (Rate: 8297k/s, Estimated time remaining: 0:00:09)[K    default: Progress: 88% (Rate: 8768k/s, Estimated time remaining: 0:00:07)[K    default: Progress: 90% (Rate: 8828k/s, Estimated time remaining: 0:00:06)[K    default: Progress: 92% (Rate: 9008k/s, Estimated time remaining: 0:00:04)[K    default: Progress: 94% (Rate: 9177k/s, Estimated time remaining: 0:00:03)[K    default: Progress: 97% (Rate: 9296k/s, Estimated time remaining: 0:00:01)[K    default: Progress: 99% (Rate: 9415k/s, Estimated time remaining: --:--:--)[K==> default: Successfully added box 'bento/ubuntu-16.04' (v201808.24.0) for 'virtualbox'!
+I, [2018-11-28T22:18:34.974389 #22956]  INFO -- default-ubuntu-1604: ==> default: Importing base box 'bento/ubuntu-16.04'...
+I, [2018-11-28T22:18:52.229015 #22956]  INFO -- default-ubuntu-1604: [KProgress: 20%[KProgress: 30%[KProgress: 40%[KProgress: 50%[KProgress: 60%[KProgress: 70%[KProgress: 80%[KProgress: 90%[K==> default: Matching MAC address for NAT networking...
+I, [2018-11-28T22:18:52.475235 #22956]  INFO -- default-ubuntu-1604: ==> default: Checking if box 'bento/ubuntu-16.04' is up to date...
+I, [2018-11-28T22:18:54.566860 #22956]  INFO -- default-ubuntu-1604: ==> default: Setting the name of the VM: kitchen-task9-default-ubuntu-1604
+I, [2018-11-28T22:18:55.023756 #22956]  INFO -- default-ubuntu-1604: ==> default: Fixed port collision for 22 => 2222. Now on port 2201.
+I, [2018-11-28T22:18:55.268949 #22956]  INFO -- default-ubuntu-1604: Vagrant is currently configured to create VirtualBox synced folders with
+I, [2018-11-28T22:18:55.269028 #22956]  INFO -- default-ubuntu-1604: the `SharedFoldersEnableSymlinksCreate` option enabled. If the Vagrant
+I, [2018-11-28T22:18:55.269059 #22956]  INFO -- default-ubuntu-1604: guest is not trusted, you may want to disable this option. For more
+I, [2018-11-28T22:18:55.269082 #22956]  INFO -- default-ubuntu-1604: information on this option, please refer to the VirtualBox manual:
+I, [2018-11-28T22:18:55.269103 #22956]  INFO -- default-ubuntu-1604: 
+I, [2018-11-28T22:18:55.269123 #22956]  INFO -- default-ubuntu-1604:   https://www.virtualbox.org/manual/ch04.html#sharedfolders
+I, [2018-11-28T22:18:55.269143 #22956]  INFO -- default-ubuntu-1604: 
+I, [2018-11-28T22:18:55.269167 #22956]  INFO -- default-ubuntu-1604: This option can be disabled globally with an environment variable:
+I, [2018-11-28T22:18:55.269188 #22956]  INFO -- default-ubuntu-1604: 
+I, [2018-11-28T22:18:55.269209 #22956]  INFO -- default-ubuntu-1604:   VAGRANT_DISABLE_VBOXSYMLINKCREATE=1
+I, [2018-11-28T22:18:55.270730 #22956]  INFO -- default-ubuntu-1604: 
+I, [2018-11-28T22:18:55.270789 #22956]  INFO -- default-ubuntu-1604: or on a per folder basis within the Vagrantfile:
+I, [2018-11-28T22:18:55.270818 #22956]  INFO -- default-ubuntu-1604: 
+I, [2018-11-28T22:18:55.270840 #22956]  INFO -- default-ubuntu-1604:   config.vm.synced_folder '/host/path', '/guest/path', SharedFoldersEnableSymlinksCreate: false
+I, [2018-11-28T22:18:55.537251 #22956]  INFO -- default-ubuntu-1604: ==> default: Clearing any previously set network interfaces...
+I, [2018-11-28T22:18:55.623173 #22956]  INFO -- default-ubuntu-1604: ==> default: Preparing network interfaces based on configuration...
+I, [2018-11-28T22:18:55.623655 #22956]  INFO -- default-ubuntu-1604:     default: Adapter 1: nat
+I, [2018-11-28T22:18:55.715603 #22956]  INFO -- default-ubuntu-1604: ==> default: Forwarding ports...
+I, [2018-11-28T22:18:55.830536 #22956]  INFO -- default-ubuntu-1604:     default: 22 (guest) => 2201 (host) (adapter 1)
+I, [2018-11-28T22:18:56.095439 #22956]  INFO -- default-ubuntu-1604: ==> default: Booting VM...
+I, [2018-11-28T22:18:56.917792 #22956]  INFO -- default-ubuntu-1604: ==> default: Waiting for machine to boot. This may take a few minutes...
+I, [2018-11-28T22:18:57.672248 #22956]  INFO -- default-ubuntu-1604:     default: SSH address: 127.0.0.1:2201
+I, [2018-11-28T22:18:57.672659 #22956]  INFO -- default-ubuntu-1604:     default: SSH username: vagrant
+I, [2018-11-28T22:18:57.673007 #22956]  INFO -- default-ubuntu-1604:     default: SSH auth method: private key
+I, [2018-11-28T22:19:22.447472 #22956]  INFO -- default-ubuntu-1604:     default: 
+I, [2018-11-28T22:19:22.467492 #22956]  INFO -- default-ubuntu-1604:     default: Vagrant insecure key detected. Vagrant will automatically replace
+I, [2018-11-28T22:19:22.467568 #22956]  INFO -- default-ubuntu-1604:     default: this with a newly generated keypair for better security.
+I, [2018-11-28T22:19:44.267933 #22956]  INFO -- default-ubuntu-1604:     default: 
+I, [2018-11-28T22:19:44.275200 #22956]  INFO -- default-ubuntu-1604:     default: Inserting generated public key within guest...
+I, [2018-11-28T22:19:45.097973 #22956]  INFO -- default-ubuntu-1604:     default: Removing insecure key from the guest if it's present...
+I, [2018-11-28T22:19:45.863824 #22956]  INFO -- default-ubuntu-1604:     default: Key inserted! Disconnecting and reconnecting using new SSH key...
+I, [2018-11-28T22:19:49.094496 #22956]  INFO -- default-ubuntu-1604: ==> default: Machine booted and ready!
+I, [2018-11-28T22:19:49.099025 #22956]  INFO -- default-ubuntu-1604: ==> default: Checking for guest additions in VM...
+I, [2018-11-28T22:19:49.447533 #22956]  INFO -- default-ubuntu-1604:     default: The guest additions on this VM do not match the installed version of
+I, [2018-11-28T22:19:49.447633 #22956]  INFO -- default-ubuntu-1604:     default: VirtualBox! In most cases this is fine, but in rare cases it can
+I, [2018-11-28T22:19:49.447683 #22956]  INFO -- default-ubuntu-1604:     default: prevent things such as shared folders from working properly. If you see
+I, [2018-11-28T22:19:49.447725 #22956]  INFO -- default-ubuntu-1604:     default: shared folder errors, please make sure the guest additions within the
+I, [2018-11-28T22:19:49.447760 #22956]  INFO -- default-ubuntu-1604:     default: virtual machine match the version of VirtualBox you have installed on
+I, [2018-11-28T22:19:49.447793 #22956]  INFO -- default-ubuntu-1604:     default: your host and reload your VM.
+I, [2018-11-28T22:19:49.447824 #22956]  INFO -- default-ubuntu-1604:     default: 
+I, [2018-11-28T22:19:49.447856 #22956]  INFO -- default-ubuntu-1604:     default: Guest Additions Version: 5.2.18
+I, [2018-11-28T22:19:49.447887 #22956]  INFO -- default-ubuntu-1604:     default: VirtualBox Version: 5.1
+I, [2018-11-28T22:19:49.448681 #22956]  INFO -- default-ubuntu-1604: ==> default: Setting hostname...
+I, [2018-11-28T22:19:50.493645 #22956]  INFO -- default-ubuntu-1604: ==> default: Mounting shared folders...
+I, [2018-11-28T22:19:50.494210 #22956]  INFO -- default-ubuntu-1604:     default: /tmp/omnibus/cache => /root/.kitchen/cache
+I, [2018-11-28T22:19:52.222309 #22956]  INFO -- default-ubuntu-1604: ==> default: Machine not provisioned because `--no-provision` is specified.
+I, [2018-11-28T22:19:56.837378 #22956]  INFO -- default-ubuntu-1604: [SSH] Established
+I, [2018-11-28T22:19:56.838487 #22956]  INFO -- default-ubuntu-1604: Vagrant instance <default-ubuntu-1604> created.
+I, [2018-11-28T22:19:56.839803 #22956]  INFO -- default-ubuntu-1604: Finished creating <default-ubuntu-1604> (2m36.57s).
+I, [2018-11-28T22:19:56.840242 #22956]  INFO -- default-ubuntu-1604: -----> Converging <default-ubuntu-1604>...
+I, [2018-11-28T22:19:56.841074 #22956]  INFO -- default-ubuntu-1604: Preparing files for transfer
+I, [2018-11-28T22:19:56.841514 #22956]  INFO -- default-ubuntu-1604: Preparing dna.json
+I, [2018-11-28T22:19:56.842859 #22956]  INFO -- default-ubuntu-1604: Resolving cookbook dependencies with Berkshelf 7.0.6...
+I, [2018-11-28T22:20:02.462268 #22956]  INFO -- default-ubuntu-1604: Removing non-cookbook files before transfer
+I, [2018-11-28T22:20:02.472448 #22956]  INFO -- default-ubuntu-1604: Preparing validation.pem
+I, [2018-11-28T22:20:02.473747 #22956]  INFO -- default-ubuntu-1604: Preparing client.rb
+I, [2018-11-28T22:20:02.526575 #22956]  INFO -- default-ubuntu-1604: -----> Installing Chef Omnibus (install only if missing)
+I, [2018-11-28T22:20:02.527762 #22956]  INFO -- default-ubuntu-1604: Downloading https://omnitruck.chef.io/install.sh to file /tmp/install.sh
+I, [2018-11-28T22:20:02.527914 #22956]  INFO -- default-ubuntu-1604: Trying wget...
+I, [2018-11-28T22:20:03.704550 #22956]  INFO -- default-ubuntu-1604: Download complete.
+I, [2018-11-28T22:20:03.726718 #22956]  INFO -- default-ubuntu-1604: ubuntu 16.04 x86_64
+I, [2018-11-28T22:20:03.727032 #22956]  INFO -- default-ubuntu-1604: Getting information for chef stable  for ubuntu...
+I, [2018-11-28T22:20:03.727073 #22956]  INFO -- default-ubuntu-1604: downloading https://omnitruck.chef.io/stable/chef/metadata?v=&p=ubuntu&pv=16.04&m=x86_64
+I, [2018-11-28T22:20:03.727098 #22956]  INFO -- default-ubuntu-1604:   to file /tmp/install.sh.1574/metadata.txt
+I, [2018-11-28T22:20:03.727776 #22956]  INFO -- default-ubuntu-1604: trying wget...
+I, [2018-11-28T22:20:04.718892 #22956]  INFO -- default-ubuntu-1604: sha1	ef64d3b425c4ab46186d7017a057e42337430121
+I, [2018-11-28T22:20:04.720249 #22956]  INFO -- default-ubuntu-1604: sha256	7b5d90f1f84b706a1217daa9546f5982dabb6d8425e3ceffec331bf581801469
+I, [2018-11-28T22:20:04.721604 #22956]  INFO -- default-ubuntu-1604: url	https://packages.chef.io/files/stable/chef/14.7.17/ubuntu/16.04/chef_14.7.17-1_amd64.deb
+I, [2018-11-28T22:20:04.721677 #22956]  INFO -- default-ubuntu-1604: version	14.7.17
+I, [2018-11-28T22:20:04.724184 #22956]  INFO -- default-ubuntu-1604: downloaded metadata file looks valid...
+I, [2018-11-28T22:20:04.735752 #22956]  INFO -- default-ubuntu-1604: downloading https://packages.chef.io/files/stable/chef/14.7.17/ubuntu/16.04/chef_14.7.17-1_amd64.deb
+I, [2018-11-28T22:20:04.736036 #22956]  INFO -- default-ubuntu-1604:   to file /tmp/omnibus/cache/chef_14.7.17-1_amd64.deb
+I, [2018-11-28T22:20:04.736742 #22956]  INFO -- default-ubuntu-1604: trying wget...
+I, [2018-11-28T22:20:08.209937 #22956]  INFO -- default-ubuntu-1604: Comparing checksum with sha256sum...
+I, [2018-11-28T22:20:08.526657 #22956]  INFO -- default-ubuntu-1604: 
+I, [2018-11-28T22:20:08.527051 #22956]  INFO -- default-ubuntu-1604: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+I, [2018-11-28T22:20:08.527103 #22956]  INFO -- default-ubuntu-1604: 
+I, [2018-11-28T22:20:08.527144 #22956]  INFO -- default-ubuntu-1604: You are installing an omnibus package without a version pin.  If you are installing
+I, [2018-11-28T22:20:08.527173 #22956]  INFO -- default-ubuntu-1604: on production servers via an automated process this is DANGEROUS and you will
+I, [2018-11-28T22:20:08.527195 #22956]  INFO -- default-ubuntu-1604: be upgraded without warning on new releases, even to new major releases.
+I, [2018-11-28T22:20:08.527218 #22956]  INFO -- default-ubuntu-1604: Letting the version float is only appropriate in desktop, test, development or
+I, [2018-11-28T22:20:08.527513 #22956]  INFO -- default-ubuntu-1604: CI/CD environments.
+I, [2018-11-28T22:20:08.527548 #22956]  INFO -- default-ubuntu-1604: 
+I, [2018-11-28T22:20:08.527571 #22956]  INFO -- default-ubuntu-1604: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+I, [2018-11-28T22:20:08.527592 #22956]  INFO -- default-ubuntu-1604: 
+I, [2018-11-28T22:20:08.527612 #22956]  INFO -- default-ubuntu-1604: Installing chef 
+I, [2018-11-28T22:20:08.527658 #22956]  INFO -- default-ubuntu-1604: installing with dpkg...
+I, [2018-11-28T22:20:08.593916 #22956]  INFO -- default-ubuntu-1604: Selecting previously unselected package chef.
+I, [2018-11-28T22:20:08.870279 #22956]  INFO -- default-ubuntu-1604: (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 38378 files and directories currently installed.)
+I, [2018-11-28T22:20:08.872779 #22956]  INFO -- default-ubuntu-1604: Preparing to unpack .../cache/chef_14.7.17-1_amd64.deb ...
+I, [2018-11-28T22:20:08.882975 #22956]  INFO -- default-ubuntu-1604: Unpacking chef (14.7.17-1) ...
+I, [2018-11-28T22:20:20.353593 #22956]  INFO -- default-ubuntu-1604: Setting up chef (14.7.17-1) ...
+I, [2018-11-28T22:20:20.494881 #22956]  INFO -- default-ubuntu-1604: Thank you for installing Chef!
+I, [2018-11-28T22:20:20.635837 #22956]  INFO -- default-ubuntu-1604: Transferring files to <default-ubuntu-1604>
+I, [2018-11-28T22:20:29.804763 #22956]  INFO -- default-ubuntu-1604: Starting Chef Client, version 14.7.17
+I, [2018-11-28T22:20:31.390451 #22956]  INFO -- default-ubuntu-1604: Creating a new client identity for default-ubuntu-1604 using the validator key.
+I, [2018-11-28T22:20:31.461790 #22956]  INFO -- default-ubuntu-1604: resolving cookbooks for run list: ["task9::default"]
+I, [2018-11-28T22:20:31.524536 #22956]  INFO -- default-ubuntu-1604: Synchronizing Cookbooks:
+I, [2018-11-28T22:20:31.534755 #22956]  INFO -- default-ubuntu-1604:   - task9 (0.1.0)
+I, [2018-11-28T22:20:31.537410 #22956]  INFO -- default-ubuntu-1604: Installing Cookbook Gems:
+I, [2018-11-28T22:20:31.537915 #22956]  INFO -- default-ubuntu-1604: Compiling Cookbooks...
+I, [2018-11-28T22:20:31.545071 #22956]  INFO -- default-ubuntu-1604: Converging 4 resources
+I, [2018-11-28T22:20:31.545514 #22956]  INFO -- default-ubuntu-1604: Recipe: task9::default
+I, [2018-11-28T22:20:31.547020 #22956]  INFO -- default-ubuntu-1604:   * yum_repository[docker-ce-stable] action create (up to date)
+I, [2018-11-28T22:20:31.724763 #22956]  INFO -- default-ubuntu-1604:   * yum_package[docker-ce] action install
+I, [2018-11-28T22:20:31.725925 #22956]  INFO -- default-ubuntu-1604:     
+I, [2018-11-28T22:20:31.727241 #22956]  INFO -- default-ubuntu-1604:     ================================================================================
+I, [2018-11-28T22:20:31.728895 #22956]  INFO -- default-ubuntu-1604:     Error executing action `install` on resource 'yum_package[docker-ce]'
+I, [2018-11-28T22:20:31.730335 #22956]  INFO -- default-ubuntu-1604:     ================================================================================
+I, [2018-11-28T22:20:31.731230 #22956]  INFO -- default-ubuntu-1604:     
+I, [2018-11-28T22:20:31.731725 #22956]  INFO -- default-ubuntu-1604:     NoMethodError
+I, [2018-11-28T22:20:31.732691 #22956]  INFO -- default-ubuntu-1604:     -------------
+I, [2018-11-28T22:20:31.732791 #22956]  INFO -- default-ubuntu-1604:     undefined method `+' for false:FalseClass
+I, [2018-11-28T22:20:31.732892 #22956]  INFO -- default-ubuntu-1604:     
+I, [2018-11-28T22:20:31.733702 #22956]  INFO -- default-ubuntu-1604:     Resource Declaration:
+I, [2018-11-28T22:20:31.733766 #22956]  INFO -- default-ubuntu-1604:     ---------------------
+I, [2018-11-28T22:20:31.733793 #22956]  INFO -- default-ubuntu-1604:     # In /tmp/kitchen/cache/cookbooks/task9/recipes/default.rb
+I, [2018-11-28T22:20:31.734143 #22956]  INFO -- default-ubuntu-1604:     
+I, [2018-11-28T22:20:31.734420 #22956]  INFO -- default-ubuntu-1604:      16: yum_package 'docker-ce' do
+I, [2018-11-28T22:20:31.734467 #22956]  INFO -- default-ubuntu-1604:      17:   action :install
+I, [2018-11-28T22:20:31.734507 #22956]  INFO -- default-ubuntu-1604:      18: end
+I, [2018-11-28T22:20:31.734754 #22956]  INFO -- default-ubuntu-1604:      19: 
+I, [2018-11-28T22:20:31.734799 #22956]  INFO -- default-ubuntu-1604:     
+I, [2018-11-28T22:20:31.735167 #22956]  INFO -- default-ubuntu-1604:     Compiled Resource:
+I, [2018-11-28T22:20:31.735648 #22956]  INFO -- default-ubuntu-1604:     ------------------
+I, [2018-11-28T22:20:31.735701 #22956]  INFO -- default-ubuntu-1604:     # Declared in /tmp/kitchen/cache/cookbooks/task9/recipes/default.rb:16:in `from_file'
+I, [2018-11-28T22:20:31.735740 #22956]  INFO -- default-ubuntu-1604:     
+I, [2018-11-28T22:20:31.736157 #22956]  INFO -- default-ubuntu-1604:     yum_package("docker-ce") do
+I, [2018-11-28T22:20:31.736211 #22956]  INFO -- default-ubuntu-1604:       package_name "docker-ce"
+I, [2018-11-28T22:20:31.736250 #22956]  INFO -- default-ubuntu-1604:       action [:install]
+I, [2018-11-28T22:20:31.736284 #22956]  INFO -- default-ubuntu-1604:       default_guard_interpreter :default
+I, [2018-11-28T22:20:31.736627 #22956]  INFO -- default-ubuntu-1604:       declared_type :yum_package
+I, [2018-11-28T22:20:31.736674 #22956]  INFO -- default-ubuntu-1604:       cookbook_name "task9"
+I, [2018-11-28T22:20:31.736930 #22956]  INFO -- default-ubuntu-1604:       recipe_name "default"
+I, [2018-11-28T22:20:31.736977 #22956]  INFO -- default-ubuntu-1604:     end
+I, [2018-11-28T22:20:31.737010 #22956]  INFO -- default-ubuntu-1604:     
+I, [2018-11-28T22:20:31.739151 #22956]  INFO -- default-ubuntu-1604:     System Info:
+I, [2018-11-28T22:20:31.740119 #22956]  INFO -- default-ubuntu-1604:     ------------
+I, [2018-11-28T22:20:31.740183 #22956]  INFO -- default-ubuntu-1604:     chef_version=14.7.17
+I, [2018-11-28T22:20:31.740993 #22956]  INFO -- default-ubuntu-1604:     platform=ubuntu
+I, [2018-11-28T22:20:31.741062 #22956]  INFO -- default-ubuntu-1604:     platform_version=16.04
+I, [2018-11-28T22:20:31.741087 #22956]  INFO -- default-ubuntu-1604:     ruby=ruby 2.5.3p105 (2018-10-18 revision 65156) [x86_64-linux]
+I, [2018-11-28T22:20:31.741109 #22956]  INFO -- default-ubuntu-1604:     program_name=/opt/chef/bin/chef-client
+I, [2018-11-28T22:20:31.741131 #22956]  INFO -- default-ubuntu-1604:     executable=/opt/chef/bin/chef-client
+I, [2018-11-28T22:20:31.743454 #22956]  INFO -- default-ubuntu-1604:     
+I, [2018-11-28T22:20:31.743528 #22956]  INFO -- default-ubuntu-1604: 
+I, [2018-11-28T22:20:31.744037 #22956]  INFO -- default-ubuntu-1604: Running handlers:
+I, [2018-11-28T22:20:31.745016 #22956]  INFO -- default-ubuntu-1604: [2018-11-28T19:20:30+00:00] ERROR: Running exception handlers
+I, [2018-11-28T22:20:31.746272 #22956]  INFO -- default-ubuntu-1604: Running handlers complete
+I, [2018-11-28T22:20:31.747590 #22956]  INFO -- default-ubuntu-1604: [2018-11-28T19:20:30+00:00] ERROR: Exception handlers complete
+I, [2018-11-28T22:20:31.747942 #22956]  INFO -- default-ubuntu-1604: Chef Client failed. 0 resources updated in 01 seconds
+I, [2018-11-28T22:20:31.749419 #22956]  INFO -- default-ubuntu-1604: [2018-11-28T19:20:30+00:00] FATAL: Stacktrace dumped to /tmp/kitchen/cache/chef-stacktrace.out
+I, [2018-11-28T22:20:31.749924 #22956]  INFO -- default-ubuntu-1604: [2018-11-28T19:20:30+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+I, [2018-11-28T22:20:31.750398 #22956]  INFO -- default-ubuntu-1604: [2018-11-28T19:20:30+00:00] FATAL: NoMethodError: yum_package[docker-ce] (task9::default line 16) had an error: NoMethodError: undefined method `+' for false:FalseClass
+E, [2018-11-28T22:20:31.846262 #22956] ERROR -- default-ubuntu-1604: Converge failed on instance <default-ubuntu-1604>.
+E, [2018-11-28T22:20:31.846451 #22956] ERROR -- default-ubuntu-1604: ------Exception-------
+E, [2018-11-28T22:20:31.846492 #22956] ERROR -- default-ubuntu-1604: Class: Kitchen::ActionFailed
+E, [2018-11-28T22:20:31.846523 #22956] ERROR -- default-ubuntu-1604: Message: SSH exited (1) for command: [sh -c '
+TEST_KITCHEN="1"; export TEST_KITCHEN
+sudo -E /opt/chef/bin/chef-client --local-mode --config /tmp/kitchen/client.rb --log_level auto --force-formatter --no-color --json-attributes /tmp/kitchen/dna.json --chef-zero-port 8889 
+']
+E, [2018-11-28T22:20:31.846553 #22956] ERROR -- default-ubuntu-1604: ----------------------
+E, [2018-11-28T22:20:31.846581 #22956] ERROR -- default-ubuntu-1604: ------Backtrace-------
+E, [2018-11-28T22:20:31.846610 #22956] ERROR -- default-ubuntu-1604: /opt/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/provisioner/base.rb:91:in `rescue in call'
+E, [2018-11-28T22:20:31.846640 #22956] ERROR -- default-ubuntu-1604: /opt/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/provisioner/base.rb:67:in `call'
+E, [2018-11-28T22:20:31.846669 #22956] ERROR -- default-ubuntu-1604: /opt/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:408:in `block in converge_action'
+E, [2018-11-28T22:20:31.846698 #22956] ERROR -- default-ubuntu-1604: /opt/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:551:in `synchronize_or_call'
+E, [2018-11-28T22:20:31.846727 #22956] ERROR -- default-ubuntu-1604: /opt/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:513:in `block in action'
+E, [2018-11-28T22:20:31.846756 #22956] ERROR -- default-ubuntu-1604: /opt/chef-workstation/embedded/lib/ruby/2.5.0/benchmark.rb:293:in `measure'
+E, [2018-11-28T22:20:31.846785 #22956] ERROR -- default-ubuntu-1604: /opt/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:512:in `action'
+E, [2018-11-28T22:20:31.846814 #22956] ERROR -- default-ubuntu-1604: /opt/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:404:in `converge_action'
+E, [2018-11-28T22:20:31.846843 #22956] ERROR -- default-ubuntu-1604: /opt/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:382:in `block (2 levels) in transition_to'
+E, [2018-11-28T22:20:31.846900 #22956] ERROR -- default-ubuntu-1604: /opt/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/lifecycle_hooks.rb:45:in `run_with_hooks'
+E, [2018-11-28T22:20:31.846957 #22956] ERROR -- default-ubuntu-1604: /opt/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:381:in `block in transition_to'
+E, [2018-11-28T22:20:31.846990 #22956] ERROR -- default-ubuntu-1604: /opt/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:380:in `each'
+E, [2018-11-28T22:20:31.847021 #22956] ERROR -- default-ubuntu-1604: /opt/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:380:in `transition_to'
+E, [2018-11-28T22:20:31.847050 #22956] ERROR -- default-ubuntu-1604: /opt/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:162:in `verify'
+E, [2018-11-28T22:20:31.847080 #22956] ERROR -- default-ubuntu-1604: /opt/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:191:in `block in test'
+E, [2018-11-28T22:20:31.847109 #22956] ERROR -- default-ubuntu-1604: /opt/chef-workstation/embedded/lib/ruby/2.5.0/benchmark.rb:293:in `measure'
+E, [2018-11-28T22:20:31.847139 #22956] ERROR -- default-ubuntu-1604: /opt/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:187:in `test'
+E, [2018-11-28T22:20:31.847168 #22956] ERROR -- default-ubuntu-1604: /opt/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/command.rb:197:in `public_send'
+E, [2018-11-28T22:20:31.847197 #22956] ERROR -- default-ubuntu-1604: /opt/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/command.rb:197:in `run_action_in_thread'
+E, [2018-11-28T22:20:31.847226 #22956] ERROR -- default-ubuntu-1604: /opt/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/command.rb:169:in `block (2 levels) in run_action'
+E, [2018-11-28T22:20:31.847255 #22956] ERROR -- default-ubuntu-1604: ----End Backtrace-----
+E, [2018-11-28T22:20:31.847283 #22956] ERROR -- default-ubuntu-1604: ---Nested Exception---
+E, [2018-11-28T22:20:31.847311 #22956] ERROR -- default-ubuntu-1604: Class: Kitchen::Transport::SshFailed
+E, [2018-11-28T22:20:31.847339 #22956] ERROR -- default-ubuntu-1604: Message: SSH exited (1) for command: [sh -c '
+TEST_KITCHEN="1"; export TEST_KITCHEN
+sudo -E /opt/chef/bin/chef-client --local-mode --config /tmp/kitchen/client.rb --log_level auto --force-formatter --no-color --json-attributes /tmp/kitchen/dna.json --chef-zero-port 8889 
+']
+E, [2018-11-28T22:20:31.847368 #22956] ERROR -- default-ubuntu-1604: ----------------------
+E, [2018-11-28T22:20:31.847397 #22956] ERROR -- default-ubuntu-1604: ------Backtrace-------
+E, [2018-11-28T22:20:31.847426 #22956] ERROR -- default-ubuntu-1604: /opt/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/provisioner/base.rb:91:in `rescue in call'
+E, [2018-11-28T22:20:31.847455 #22956] ERROR -- default-ubuntu-1604: /opt/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/provisioner/base.rb:67:in `call'
+E, [2018-11-28T22:20:31.847484 #22956] ERROR -- default-ubuntu-1604: /opt/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:408:in `block in converge_action'
+E, [2018-11-28T22:20:31.847513 #22956] ERROR -- default-ubuntu-1604: /opt/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:551:in `synchronize_or_call'
+E, [2018-11-28T22:20:31.847542 #22956] ERROR -- default-ubuntu-1604: /opt/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:513:in `block in action'
+E, [2018-11-28T22:20:31.847571 #22956] ERROR -- default-ubuntu-1604: /opt/chef-workstation/embedded/lib/ruby/2.5.0/benchmark.rb:293:in `measure'
+E, [2018-11-28T22:20:31.847601 #22956] ERROR -- default-ubuntu-1604: /opt/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:512:in `action'
+E, [2018-11-28T22:20:31.847630 #22956] ERROR -- default-ubuntu-1604: /opt/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:404:in `converge_action'
+E, [2018-11-28T22:20:31.847666 #22956] ERROR -- default-ubuntu-1604: /opt/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:382:in `block (2 levels) in transition_to'
+E, [2018-11-28T22:20:31.847696 #22956] ERROR -- default-ubuntu-1604: /opt/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/lifecycle_hooks.rb:45:in `run_with_hooks'
+E, [2018-11-28T22:20:31.847725 #22956] ERROR -- default-ubuntu-1604: /opt/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:381:in `block in transition_to'
+E, [2018-11-28T22:20:31.847754 #22956] ERROR -- default-ubuntu-1604: /opt/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:380:in `each'
+E, [2018-11-28T22:20:31.847782 #22956] ERROR -- default-ubuntu-1604: /opt/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:380:in `transition_to'
+E, [2018-11-28T22:20:31.847811 #22956] ERROR -- default-ubuntu-1604: /opt/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:162:in `verify'
+E, [2018-11-28T22:20:31.847840 #22956] ERROR -- default-ubuntu-1604: /opt/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:191:in `block in test'
+E, [2018-11-28T22:20:31.847884 #22956] ERROR -- default-ubuntu-1604: /opt/chef-workstation/embedded/lib/ruby/2.5.0/benchmark.rb:293:in `measure'
+E, [2018-11-28T22:20:31.847918 #22956] ERROR -- default-ubuntu-1604: /opt/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/instance.rb:187:in `test'
+E, [2018-11-28T22:20:31.847948 #22956] ERROR -- default-ubuntu-1604: /opt/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/command.rb:197:in `public_send'
+E, [2018-11-28T22:20:31.847977 #22956] ERROR -- default-ubuntu-1604: /opt/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/command.rb:197:in `run_action_in_thread'
+E, [2018-11-28T22:20:31.848007 #22956] ERROR -- default-ubuntu-1604: /opt/chef-workstation/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.23.2/lib/kitchen/command.rb:169:in `block (2 levels) in run_action'
+E, [2018-11-28T22:20:31.848036 #22956] ERROR -- default-ubuntu-1604: ----End Backtrace-----
