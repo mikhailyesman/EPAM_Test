@@ -16,3 +16,9 @@ end
 describe port(80), :skip do
   it { should_not be_listening }
 end
+
+describe package("docker-ce") do
+  it { should be_installed } 
+end
+
+
