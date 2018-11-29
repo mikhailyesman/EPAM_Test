@@ -18,7 +18,7 @@ yum_package 'docker-ce' do
 end
 
 file '/etc/docker/daemon.json' do
-        content '{ "insecure-registries" : ["192.168.10.111:5000" ] }'
+        content '{ "insecure-registries" : ["192.168.10.112:5000" ] }'
         owner 'root'
         group 'root'
         mode '0755'
