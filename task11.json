@@ -1,0 +1,107 @@
+{
+    "AWSTemplateFormatVersion" : "2010-09-09",
+    
+    "Description" : "CloudFormation template for creating an ec2 instance",
+    
+    "Parameters" : {
+        "AvailabilityZone" : {
+            "Description" : "Name of an availability zone to create instance",
+            "Type" : "AWS::EC2::AvailabilityZone::Name"
+        },
+        "SecurityGroup" : {
+            "Type" : "AWS::EC2::SecurityGroup"
+        },
+        "KeyName": {
+            "Description" : "Name of an existing EC2 KeyPair to enable SSH access to the instance",
+            "Type": "AWS::EC2::KeyPair::KeyName",
+            "ConstraintDescription" : "smeskey"
+        },        
+
+        "InstanceType" : {
+            "Description" : "WebServer EC2 instance type",
+            "Type" : "String",
+            "Default" : "t2.micro",
+        },
+		"ImageId" : {
+            "Description" : "Type the Instance AMI ID",
+            "Type" : "String",
+            "Default" : "ami-8fcee4e5",
+        },
+        "SubnetID": {
+            "Description" : " Choose the SubnetID to attach with the EC2 Instance",
+            "Type": "AWS::EC2::Subnet::Id",
+        },       
+    },
+    "Resources": {
+        "Server": {
+            "Type" : "AWS::EC2::Instance",
+            "Properties": {
+                "ImageId": {"Ref": "ImageId"},
+                "InstanceType": {"Ref": "InstanceType"},
+                "KeyName": {"Ref": "KeyName"},
+				"SubnetID": {"Ref": "SubnetID"},
+                "SecurityGroup": [{"Ref": "SecurityGroup"}],
+				"AvailabilityZone": {"Ref": "AvailabilityZone"},
+            },
+            "Metadata" : {
+                "AWS::CloudFormation::Init" : {
+                    "configSets" : {
+                        "InstallAndRun" : [ "Install", "Configure" ]
+                    },
+
+                    "Install" : {
+                        "packages" : {
+                            "apt" : {
+                                "apache2"                : [],
+                            }
+                        },
+
+                        "files" : {
+                            "/var/www/html/index.html" : {
+                                "content" : { "Fn::Join" : [ "", [
+                                    "<html>\n",
+                                    "    <head>\n",
+                                    "    <title>Hello World</title>",
+                                    "    </head>",
+                                    "    <body>",
+                                    "        <center><h1>Hello World</h1></center>",
+                                    "            Hello World",
+                                    "            ",
+                                    "        <br><br>",
+                                    "             ",
+                                    "        <br><br>",
+                                    "        <font style='color:green'>Hello World</font>",
+                                    "        <br><br>",
+                                    "        <b>Hello World</b>",
+                                    "        <br><br>",
+                                    "        Hello World",
+                                    "        <br><br>",
+                                    "        Hello World",
+                                    "        <hr>",
+                                    "        Hello World",
+                                    "        <br><br>",
+                                    "        Mikhail Yesman",
+                                    "                                ",
+                                    "                                ",
+                                    "    </body>",
+                                    "</html>"
+                                ]]},
+                                "mode"    : "000600",
+                                "owner" : "apache",
+                                "group" : "apache",
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+
+    
+    "Outputs" : {
+        "WebsiteURL" : {
+            "Description" : "URL",
+            "Value" : { "Fn::Join" : ["", ["http://", { "Fn::GetAtt" : [ "Server", "PublicDnsName" ]}]] }
+        }
+    }
+}
