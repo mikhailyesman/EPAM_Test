@@ -1,7 +1,8 @@
-# This is a Chef attributes file. It can be used to specify default and override
-# attributes to be applied to nodes that run this cookbook.
 
-# Set a default name
-default["starter_name"] = "Sam Doe"
+node.default['branch']='task10'
+node.default['host']='localhost'
+node.default['port1']=8080
+node.default['port2']=8081
+node.default['vers']='1.0.11'
+node.default['server_ip']='192.168.10.111'
 
-# For further information, see the Chef documentation (https://docs.chef.io/essentials_cookbook_attribute_files.html).
