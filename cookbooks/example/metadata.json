@@ -1,0 +1,36 @@
+{
+  "name": "example",
+  "description": "An example cookbook",
+  "long_description": "",
+  "maintainer": "Example maintainer",
+  "maintainer_email": "maintainer@example.com",
+  "license": "Apache-2.0",
+  "platforms": {
+
+  },
+  "dependencies": {
+
+  },
+  "providing": {
+
+  },
+  "attributes": {
+
+  },
+  "recipes": {
+
+  },
+  "version": "1.0.0",
+  "source_url": "",
+  "issues_url": "",
+  "privacy": false,
+  "chef_versions": [
+
+  ],
+  "ohai_versions": [
+
+  ],
+  "gems": [
+
+  ]
+}

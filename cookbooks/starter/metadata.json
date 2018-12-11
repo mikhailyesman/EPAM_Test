@@ -1,0 +1,36 @@
+{
+  "name": "starter",
+  "description": "A basic starter cookbook",
+  "long_description": "",
+  "maintainer": "Awesome Company, Inc.",
+  "maintainer_email": "you@example.com",
+  "license": "All rights reserved",
+  "platforms": {
+
+  },
+  "dependencies": {
+
+  },
+  "providing": {
+
+  },
+  "attributes": {
+
+  },
+  "recipes": {
+
+  },
+  "version": "1.0.0",
+  "source_url": "",
+  "issues_url": "",
+  "privacy": false,
+  "chef_versions": [
+
+  ],
+  "ohai_versions": [
+
+  ],
+  "gems": [
+
+  ]
+}
